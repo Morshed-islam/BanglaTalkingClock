@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <gradient android:startColor="#f20b0b" android:endColor="#ed1010" android:angle="270.0" />
+            <stroke android:width="0dp" android:color="#000" />
+            <corners android:topLeftRadius="0dp" android:topRightRadius="0dp" android:bottomLeftRadius="0dp" android:bottomRightRadius="0dp" />
+            <padding android:left="10dp" android:top="10dp" android:right="10dp" android:bottom="10dp" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape>
+            <gradient android:startColor="#f91206" android:endColor="#f90e06" android:angle="270.0" />
+            <stroke android:width="0dp" android:color="#000" />
+            <corners android:topLeftRadius="0dp" android:topRightRadius="0dp" android:bottomLeftRadius="0dp" android:bottomRightRadius="0dp" />
+            <padding android:left="10dp" android:top="10dp" android:right="10dp" android:bottom="10dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient android:startColor="#b5000000" android:endColor="#c3000000" android:angle="270.0" android:centerColor="#c4000000" />
+            <corners android:topLeftRadius="30dp" android:topRightRadius="30dp" android:bottomLeftRadius="30dp" android:bottomRightRadius="30dp" />
+            <stroke android:width="0dp" android:color="#142b64" />
+        </shape>
+    </item>
+</selector>
